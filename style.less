@@ -2,14 +2,18 @@
 @lightGreen: #dfd;
 @lightRed: #fdd;
 
+@defaultShapesWidth: 200px;
 @defaultThemeColor: @lightGreen;
+@borderColor: @defaultThemeColor - #222;
+@borderSize: @defaultShapesWidth * 0.1;
 
 .shape {
   display: inline-block;
-  width: 200px;
+  width: @defaultShapesWidth;
   height: 200px;
   background: @defaultThemeColor;
   margin: 20px;
+  border: @borderSize solid @borderColor;
 }
 
 @defaultRadius: 30px;

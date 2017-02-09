@@ -4,6 +4,7 @@
   height: 200px;
   background: #dfd;
   margin: 20px;
+  border: 20px solid #bbddbb;
 }
 .Round {
   border-radius: 9999px;
