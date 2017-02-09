@@ -5,15 +5,6 @@
 @borderColor: darken(desaturate(@defaultThemeColor, 100%), 20%);
 @borderSize: @defaultShapesWidth * 0.1;
 
-.shape {
-  display: inline-block;
-  width: @defaultShapesWidth;
-  height: 200px;
-  background: @defaultThemeColor;
-  margin: 20px;
-  border: @borderSize solid @borderColor;
-}
-
 @defaultRadius: 30px;
 
 .RoundedShape(@radius: @defaultRadius){
@@ -38,6 +29,15 @@
 
 #shape3 {
   .RoundedSquare(60px);
+}
+
+.shape {
+  display: inline-block;
+  width: @defaultShapesWidth;
+  height: 200px;
+  background: @defaultThemeColor;
+  margin: 20px;
+  border: @borderSize solid @borderColor;
 }
 
 .shape {
