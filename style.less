@@ -12,11 +12,24 @@
   margin: 20px;
 }
 
+@defaultRadius: 30px;
+
+.RoundedShape(@radius: @defaultRadius){
+  border-radius: @radius;
+}
+
+.RoundedSquare(@radius: @defaultRadius){
+  .RoundedShape(@radius);
+}
 
 .Round {
-  border-radius: 9999px;
+  .RoundedShape(9999px);
 }
 
 #shape1{
   .Round;
+}
+
+#shape2 {
+  .RoundedSquare;
 }
