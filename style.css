@@ -5,6 +5,9 @@
   background: #dfd;
   margin: 20px;
 }
+.Round {
+  border-radius: 9999px;
+}
 #shape1 {
   border-radius: 9999px;
 }
