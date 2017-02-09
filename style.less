@@ -1,9 +1,7 @@
-@lightBlue: #ddf;
-@lightGreen: #dfd;
-@lightRed: #fdd;
+@import "colors.less";
 
 @defaultShapesWidth: 200px;
-@defaultThemeColor: spin(@lightBlue,100);
+@defaultThemeColor: @lightBlue;
 @borderColor: darken(desaturate(@defaultThemeColor, 100%), 20%);
 @borderSize: @defaultShapesWidth * 0.1;
 
@@ -41,3 +39,10 @@
 #shape3 {
   .RoundedSquare(60px);
 }
+
+.shape {
+  &:hover{
+    background: @lightRed;
+  }
+}
+
