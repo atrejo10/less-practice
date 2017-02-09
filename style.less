@@ -3,8 +3,8 @@
 @lightRed: #fdd;
 
 @defaultShapesWidth: 200px;
-@defaultThemeColor: @lightGreen;
-@borderColor: @defaultThemeColor - #222;
+@defaultThemeColor: spin(@lightBlue,100);
+@borderColor: darken(desaturate(@defaultThemeColor, 100%), 20%);
 @borderSize: @defaultShapesWidth * 0.1;
 
 .shape {

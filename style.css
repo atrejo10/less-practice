@@ -2,9 +2,9 @@
   display: inline-block;
   width: 200px;
   height: 200px;
-  background: #dfd;
+  background: #ffdde8;
   margin: 20px;
-  border: 20px solid #bbddbb;
+  border: 20px solid #bbbbbb;
 }
 .Round {
   border-radius: 9999px;
