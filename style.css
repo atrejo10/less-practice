@@ -1,3 +1,13 @@
+/*********
+
+Color Variables
+
+ *********/
+/***********
+
+Variables for Shapes
+
+***********/
 .Round {
   border-radius: 9999px;
 }
@@ -14,10 +24,10 @@
   display: inline-block;
   width: 200px;
   height: 200px;
-  background: #ddddff;
+  background: #ddf;
   margin: 20px;
   border: 20px solid #bbbbbb;
 }
 .shape:hover {
-  background: #ffdddd;
+  background: #fdd;
 }
